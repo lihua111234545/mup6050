@@ -5,20 +5,21 @@
 #include "gpio.h"
 
 
-//#define MAX7219_NO_OP      0x00    // ÎŞ²Ù×÷
-//#define MAX7219_DIGIT0     0x01    // µÚ 0 ÁĞ£¨¶¥²¿£©
-//#define MAX7219_DIGIT1     0x02    // µÚ 1 ÁĞ
-//#define MAX7219_DIGIT2     0x03    // µÚ 2 ÁĞ
-//#define MAX7219_DIGIT3     0x04    // µÚ 3 ÁĞ
-//#define MAX7219_DIGIT4     0x05    // µÚ 4 ÁĞ
-//#define MAX7219_DIGIT5     0x06    // µÚ 5 ÁĞ
-//#define MAX7219_DIGIT6     0x07    // µÚ 6 ÁĞ
-//#define MAX7219_DIGIT7     0x08    // µÚ 7 ÁĞ£¨µ×²¿£©
-#define MAX7219_DECODE     0x09    // ½âÂëÄ£Ê½¼Ä´æÆ÷
-#define MAX7219_INTENSITY  0x0A    // ÁÁ¶È¼Ä´æÆ÷
-#define MAX7219_SCAN_LIMIT 0x0B    // É¨ÃèÏŞÖÆ¼Ä´æÆ÷
-#define MAX7219_SHUTDOWN   0x0C    // ¹Ø»úÄ£Ê½¼Ä´æÆ÷
-#define MAX7219_DISPLAY_TEST 0x0F  // ÏÔÊ¾²âÊÔ¼Ä´æÆ÷
+//#define MAX7219_NO_OP      0x00    // æ— æ“ä½œ
+//#define MAX7219_DIGIT0     0x01    // ç¬¬ 0 åˆ—ï¼ˆé¡¶éƒ¨ï¼‰
+//#define MAX7219_DIGIT1     0x02    // ç¬¬ 1 åˆ—
+//#define MAX7219_DIGIT2     0x03    // ç¬¬ 2 åˆ—
+//#define MAX7219_DIGIT3     0x04    // ç¬¬ 3 åˆ—
+//#define MAX7219_DIGIT4     0x05    // ç¬¬ 4 åˆ—
+//#define MAX7219_DIGIT5     0x06    // ç¬¬ 5 åˆ—
+//#define MAX7219_DIGIT6     0x07    // ç¬¬ 6 åˆ—
+//#define MAX7219_DIGIT7     0x08    // ç¬¬ 7 åˆ—ï¼ˆåº•éƒ¨ï¼‰
+#define MAX7219_DECODE     0x09    // è§£ç æ¨¡å¼å¯„å­˜å™¨
+#define MAX7219_INTENSITY  0x0A    // äº®åº¦å¯„å­˜å™¨
+#define MAX7219_SCAN_LIMIT 0x0B    // æ‰«æé™åˆ¶å¯„å­˜å™¨
+#define MAX7219_SHUTDOWN   0x0C    // å…³æœºæ¨¡å¼å¯„å­˜å™¨
+#define MAX7219_DISPLAY_TEST 0x0F  // æ˜¾ç¤ºæµ‹è¯•å¯„å­˜å™¨
+//æµ‹è¯•
 
 
 
