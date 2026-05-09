@@ -20,6 +20,7 @@ void DIN_1(void)
     HAL_GPIO_WritePin(DIN_GPIO_Port,DIN_Pin,GPIO_PIN_SET);
 }
 
+
 void MAX7219_WriteByte(uint8_t addr, uint8_t data)
 {
     uint16_t packet = 0;  // 16位数据包
