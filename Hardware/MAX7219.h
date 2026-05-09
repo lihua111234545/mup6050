@@ -20,7 +20,7 @@
 #define MAX7219_SHUTDOWN   0x0C    // 关机模式寄存器
 #define MAX7219_DISPLAY_TEST 0x0F  // 显示测试寄存器
 //测试
-
+//吃饭
 
 
 void CLK_1(void);
